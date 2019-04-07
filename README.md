@@ -11,12 +11,12 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Cloning the project
 ```git
-> git clone https://github.com/avihaie/bug-hunter.git
+> https://github.com/IlanZuckerman/weather_api.git
 ```
 
 ### Prerequisites
 
-Python 2.7
+Python 3.7
 
 Needed packages are listed in requirements.txt under root of this project.
 In order to install those packages, use the following command:
@@ -24,19 +24,30 @@ In order to install those packages, use the following command:
 $ pip install -r requirements.txt
 ```
 
-## Running the tests
+## Running from command line examples
 
-1) Fill out the runner.yaml file with needed info according to you system needs.
-2) Run from localhost:
+1) To get current weather conditions for London city: 
 ```
-> python runner.py -p '/full/path/runner.yaml'
+> python demo.py -p -c "London"
+```
+2. To get current weather conditions for London by city ID:
+```
+> python demo.py -p -i "524901"
+```
+3. To get 6 hours forecast in London:
+```
+> python demo.py -p -f -cnt "2" -c "London"
+```
+4. To get 3 hours forecast in London by city ID:
+```
+> python demo.py -p -f -cnt "1" -i "524901"
 ```
 
 ## Contributing
 
 
 ## Authors
-
+Ilan Zuckerman
 
 ## License
 
