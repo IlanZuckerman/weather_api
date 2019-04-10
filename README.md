@@ -10,8 +10,8 @@ openweathermap service.
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 ### Cloning the project
-```git
-> https://github.com/IlanZuckerman/weather_api.git
+```
+git clone https://github.com/IlanZuckerman/weather_api.git
 ```
 
 ### Prerequisites
